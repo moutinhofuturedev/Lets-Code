@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Components</title>
+  </head>
+  <body>
+    <style>
+      body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+/* style do App */
+      #first_root {
+        text-align: center;
+        margin: 60px;
+        padding: 1.5rem ;
+        background: orange;
+        border-radius: 6px;
+      }
+/* style do App2 */
+      .box {
+        background: rgb(33, 165, 10);
+        margin: 60px;
+        padding: 1.5rem;
+        border-radius: 6px;
+      }
+
+      #second_root {
+        background: purple;
+        margin: 60px;
+        padding: 2px 0;
+        border-radius: 6px;
+      }
+/* style do App3 */
+      #third_root {
+        margin: 0 60px;
+        font-size: x-large;
+      }
+
+      .third_box {
+        display: flex;
+        flex-direction: column;
+        padding: 4px 25px;
+        background: linear-gradient(#ffffff, #888888);
+        border-radius: 6px;
+      }
+
+      input {
+        width: 25%;
+        margin: 10px 0;
+        padding: 5px;
+      }
+/* estilização da tabela */
+      .table {
+        margin: 20px 0;
+        text-align: left;
+        background: #ffffff;
+        border-radius: 6px;
+      }
+
+      thead {
+        background: orange;
+       color: #000000;
+       font-weight: bold;
+      }
+
+      td,th {
+       border: 1px solid #000000;
+       padding: 8px 15px;
+       border-radius: 6px;
+      }
+    </style>
+    
+    <!-- componente react -->
+    <div id="first_root"></div> 
+    <!-- componente react -->
+    <div id="second_root"></div>
+    <!-- componente react -->
+    <div id="third_root"></div>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
